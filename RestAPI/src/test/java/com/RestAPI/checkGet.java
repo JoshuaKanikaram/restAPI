@@ -21,6 +21,11 @@ public class checkGet {
 		//resp.asString();
 		
 		Assert.assertEquals(200, code);
+		
+		//new lines
+		Response resp1 = RestAssured.get("");
+		resp1.getContentType();
+		
 	}
 
 }
